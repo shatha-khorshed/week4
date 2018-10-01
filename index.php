@@ -9,14 +9,14 @@
 </head>
 <body>
   <header>
-
+   <?php require_once 'nav.php'; ?>
   </header>
   <main>
     <h1>Welcome, Friend</h1>
-    
+    <?php include 'form.html'; ?>
   </main>
   <footer>
- 
+    <?php include 'nav.php'; ?>
   </footer>
 </body>
 </html>
